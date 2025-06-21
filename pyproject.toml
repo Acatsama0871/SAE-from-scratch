@@ -1,0 +1,17 @@
+[project]
+name = "sae-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=2.21.0",
+    "plotly>=5.24.1",
+    "rich>=13.9.4",
+    "ruff>=0.12.0",
+    "sae-dashboard>=0.6.9",
+    "sae-lens==5.10.7",
+    "torch>=2.7.1",
+    "transformer-lens>=2.16.1",
+    "typer>=0.12.5",
+]
